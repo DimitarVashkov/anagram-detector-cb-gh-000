@@ -2,7 +2,7 @@
 
 class Anagram
   def initialize(body)
-    @body = body.sort
+    @body = body.split('').sort
     puts @body
   end
 
